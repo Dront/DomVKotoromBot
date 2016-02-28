@@ -1,0 +1,422 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 360, in handle
+    callback(update['message'])
+  File "/home/dront/Code/DomVKotoromBot/bot.py", line 51, in handle
+    command = msg['text'].strip()
+KeyError: 'text'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 360, in handle
+    callback(update['message'])
+  File "/home/dront/Code/DomVKotoromBot/bot.py", line 54, in handle
+    sys.exit(1)
+SystemExit: 1
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 360, in handle
+    callback(update['message'])
+  File "/home/dront/Code/DomVKotoromBot/bot.py", line 54, in handle
+    sys.exit(1)
+SystemExit: 1
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+text private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630639,
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 174,
+ u'text': u'/one'}
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630643,
+ u'document': {u'file_id': u'BQADAgADDwADMID1Arbm6gABA3kbngI',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 176}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+text private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630724,
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 177,
+ u'text': u'/one'}
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text
+The Bot: 
+{u'first_name': u'DomVKotoromBot',
+ u'id': 124808497,
+ u'username': u'DomVKotoromBot'}
+Listening ...
+document private 49643568
+{u'chat': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'type': u'private',
+           u'username': u'Dront'},
+ u'date': 1455630730,
+ u'document': {u'file_id': u'BQADAgADEAADMID1An5t3J3wWrDtAg',
+               u'file_name': u'dom.jpg',
+               u'file_size': 41059,
+               u'mime_type': u'image/jpeg',
+               u'thumb': {u'file_id': u'AAQCABOesYIqAATW3CXeKZo26ZQ5AAIC',
+                          u'file_path': u'thumb/file_1.jpg',
+                          u'file_size': 2851,
+                          u'height': 90,
+                          u'width': 59}},
+ u'from': {u'first_name': u'\u0410\u043d\u0434\u0440\u0435\u0439',
+           u'id': 49643568,
+           u'last_name': u'\u0415\u0440\u043e\u0448\u043a\u0438\u043d',
+           u'username': u'Dront'},
+ u'message_id': 179}
+msg contains no text

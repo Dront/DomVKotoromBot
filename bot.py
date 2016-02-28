@@ -2,10 +2,9 @@
 # *- coding: utf-8 -*
 
 import time
-from pprint import pprint
 import random
+import logging
 import telepot
-import sys
 
 TOKEN = '124808497:AAHsfAEGi0bxr4c0wKRXlIbGL8wQL9rKs0k'
 
@@ -46,17 +45,15 @@ shutdown = False
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
-    print content_type, chat_type, chat_id
-    pprint(msg)
+    logging.info('ctype: {}, chat type: {}, id: {}'.format(content_type, chat_type, chat_id))
 
     try:
         command = msg['text'].strip()
     except KeyError:
-        print 'msg contains no text'
-        global shutdown
-        shutdown = True
+        logging.info('Msg contains no text')
         return
 
+    logging.info('Command: %s', command)
     if command == commands[0]:
         text = random.choice(msgs)
     elif command == commands[1]:
@@ -69,13 +66,42 @@ def handle(msg):
     bot.sendMessage(chat_id, text, reply_markup=show_keyboard)
 
 
-bot = telepot.Bot(TOKEN)
-print 'The Bot: '
-pprint(bot.getMe())
-bot.notifyOnMessage(handle)
-print 'Listening ...'
+def config_log(
+        console_level=logging.DEBUG,
+        console_format='%(levelname)-5s: %(asctime)s: %(message)s',
+        file_level=logging.DEBUG,
+        folder='logs',
+        file_format='%(levelname)-5s: %(asctime)s: %(message)s',
+        date_format='%X',
+        filename_format="%d.%m.%y %X"):
 
-while not shutdown:
-    time.sleep(1)
+    import time
+    import os
 
-sys.exit(1)
+    filename = time.strftime(filename_format, time.localtime()) + '.log'
+    filename = os.path.join(folder, filename)
+    logging.basicConfig(
+        level=file_level,
+        format=file_format,
+        datefmt=date_format,
+        filename=filename,
+        filemode='wa')
+    # Handler which writes to the sys.stderr
+    console = logging.StreamHandler()
+    console.setLevel(console_level)
+    formatter = logging.Formatter(console_format)
+    console.setFormatter(formatter)
+    logging.getLogger('').addHandler(console)
+
+
+if __name__ == '__main__':
+    config_log(console_level=logging.INFO, file_level=logging.DEBUG)
+    bot = telepot.Bot(TOKEN)
+    logging.info('The Bot: %s', bot.getMe())
+    bot.notifyOnMessage(handle)
+    logging.info('Listening ...')
+
+    while not shutdown:
+        time.sleep(1)
+
+    logging.info('Stopped!')
